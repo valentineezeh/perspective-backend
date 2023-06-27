@@ -1,0 +1,21 @@
+{
+  "timestamp" : "2021-10-08T18:55:05.546Z",
+  "sentAt" : "2021-10-08T18:55:05.547Z",
+  "properties" : {
+    "trackingVersion" : "v3",
+    "clientSessionId" : "bFhjM237JtgCvq4B0hG31",
+    "clientPersistentId" : "W3hi37-xp--9_pG1jkwIz",
+    "pageId" : "61f7c12e4c303a0020ec5ed3",
+    "companyId" : "5fb4eb1a839d81001f800c21",
+    "funnelId" : "609a878b0cba83001fb6bbd2",
+    "funnelVersionId" : "61f7c12e4c303a0020ec5ed4",
+    "optIns": [
+      {
+        "fieldName": "age",
+        "label": "What is your age?",
+        "value": 219
+      },
+    ]
+  },
+  "messageId" : "perspective-q6qmW8wlPgRwJo1JOB1Yz"
+}

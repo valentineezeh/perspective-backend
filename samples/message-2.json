@@ -1,0 +1,26 @@
+{
+  "timestamp" : "2021-06-07T08:32:05.546Z",
+  "sentAt" : "2021-06-07T08:32:05.547Z",
+  "properties" : {
+    "trackingVersion" : "v3",
+    "clientSessionId" : "AFfmr1iGvkrJXxKWid9Ih",
+    "clientPersistentId" : "W3hi37-xp--9_pG1jkwIz",
+    "pageId" : "609a878b0cba83001fb5abd8",
+    "companyId" : "5fb4eb1a839d81001f800c21",
+    "funnelId" : "609a878b0cba83001fb5abd2",
+    "funnelVersionId" : "60a4c19fcf963b001f9f286e",
+    "optIns": [
+      {
+        "fieldName": "phone",
+        "label": "Your Phone Number",
+        "value": "000123456"
+      },
+      {
+        "fieldName": "privacy",
+        "label": "I accept",
+        "value": true
+      }
+    ]
+  },
+  "messageId" : "perspective-q6qmW8wlPgRwJo1JOB1Yz"
+}
