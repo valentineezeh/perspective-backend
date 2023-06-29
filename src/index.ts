@@ -10,7 +10,7 @@ app.use(cors())
   .options('*', cors());
 
 app.post('/users', (req: Request, res: Response) => {
-  res.send({}).status(200);
+  res.send({}).status(201);
 });
 app.get('/users', (req: Request, res: Response) => {
   res.send([]).status(200);
