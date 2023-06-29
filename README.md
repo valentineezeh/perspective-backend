@@ -1,16 +1,15 @@
 # Perspective Backend Engineer Worksample
 
-Good day!
+This project skeleton contains a basic Express setup one endpoint to create a user and one endpoint to fetch all users, as well as a basic empty unit test.
 
-This is the code part to the written work sample. In here you can find a simple API setup. 
-The tests are working, so you can run `npm test` and start from there.
+## Scripts 
+`npm start` starts the server
 
-In the `/samples` folder you can find sample users which you can feed to your system. 
-
+`npm test` executes the tests
 
 ## Goal
-1. Create a endpoint that accepts a user and stores it in a database.
-2. Create a endpoint which returns (all) users from the database.
+1. Adjust one endpoint so it accepts a user and stores it in a database.
+2. Adjust one endpoint so it returns (all) users from the database.
    * This endpoint should be able to receive a query parameter `created` which sorts users by creation date ascending or descending.
 
 Feel free to add or change this project as you like.
