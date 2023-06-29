@@ -1,4 +1,4 @@
-# Perspective Backend Engineer Worksample
+# Backend Engineer Worksample
 
 This project skeleton contains a basic Express setup one endpoint to create a user and one endpoint to fetch all users, as well as a basic empty unit test.
 
