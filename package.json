@@ -4,22 +4,31 @@
   "description": "Basic setup to for the backend engineer test",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "test": "set DEBUG=* && jest --testPathPattern=test --coverage"
+    "start": "cross-env NODE_ENV=production ts-node src/index.ts",
+    "test": "cross-env NODE_ENV=test && set DEBUG=* && jest --runInBand --detectOpenHandles --force-exit --testPathPattern=test --coverage"
   },
   "author": "Christoph Fey",
   "license": "ISC",
   "dependencies": {
     "bull": "^3.7.0",
+    "cors": "^2.8.5",
     "dotenv": "^15.0.0",
+    "express": "^4.18.2",
     "foreman": "^3.0.1",
+    "mongodb": "^5.7.0",
     "throng": "^5.0.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
     "@types/jest": "^29.5.2",
+    "@types/mongodb": "^4.0.7",
+    "@types/supertest": "^2.0.12",
+    "@types/uuid": "^9.0.2",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
     "chai": "^4.3.6",
+    "cross-env": "^7.0.3",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -28,6 +37,7 @@
     "mocha": "^9.2.0",
     "nyc": "^15.0.1",
     "prettier": "^2.8.8",
+    "supertest": "^6.3.3",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3",
