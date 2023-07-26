@@ -1,5 +1,5 @@
 # Perspective
-This is a Car Pooling Web Application that connects users who are willing to offer a ride to other users who are going to the same destination.
+This is a simple api that adds a user and fetch all users.
 
 ##
 API Endpoint: http://localhost:4111
@@ -7,7 +7,7 @@ API Endpoint: http://localhost:4111
 # Technologies Used
 - Backend: Node/Express
 - MongoDB
-- Libraries: Es6, express, typescript
+- Libraries: Es6, express, typescript, jest, supertest
 
 # Features
 - Users can be created
@@ -25,6 +25,8 @@ API Endpoint: http://localhost:4111
 - Download or clone
 - Open terminal inside the root directory of clone folder
 - Type npm install to install all dependencies
+- Add the following into the .env file
+-- PORT, DB_URL, DB_URL_TEST, DB_NAME, DB_COLLECTION
 - npm start to run the app
 - npm test to run the test suits on the app
 
