@@ -11,10 +11,14 @@ const {
   DB_NAME
 } = process.env
 
+// db-url base on env
 const db_url = NODE_ENV === 'test' ? DB_URL_TEST : DB_URL
 
+// Fire mongoDB instance
 const dbClient = new MongoClient(db_url)
+// Add DB
 const db: Db = dbClient.db(DB_NAME);
+// Add Collection
 const collection: Collection = db.collection(DB_COLLECTION);
 
 class DBController {
